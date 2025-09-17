@@ -483,10 +483,10 @@ export default function GrowthRateCalculator() {
             <h2 id="education-heading" className="font-semibold text-blue-800 mb-2">Educational Context</h2>
             <div className="text-sm text-blue-700 space-y-2">
               <p><strong>Implied Growth Rate:</strong> The dividend growth rate that investors are implicitly expecting based on current market pricing.</p>
-              <p><strong>Calculation Formula:</strong> g = r - (D₁ ÷ P₀), where g is growth rate, r is required return, D₁ is next year's dividend, and P₀ is current price.</p>
-              <p><strong>Market Expectations:</strong> This model reveals what the market believes about future growth prospects by analyzing current stock prices.</p>
+              <p><strong>Calculation Formula:</strong> g = r - (D₁ ÷ P₀), where g is dividend growth rate, r is required return, D₁ is next year's dividend, and P₀ is current price.</p>
+              <p><strong>Market Expectations:</strong> This model reveals what the market believes about future dividend growth prospects by analyzing current stock prices.</p>
               <p><strong>Consistency Check:</strong> The calculator compares your expected dividend (D₁) with what the current dividend would grow to at the implied rate.</p>
-              <p className="text-xs mt-2"><strong>Applications:</strong> Useful for valuation analysis, identifying overvalued/undervalued stocks, and understanding market sentiment about growth prospects.</p>
+              <p className="text-xs mt-2"><strong>Applications:</strong> The model assumes constant dividend growth and is useful for valuation analysis, identifying overvalued/undervalued stocks, and understanding market sentiment about growth prospects.</p>
             </div>
           </section>
         </Card>
