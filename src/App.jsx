@@ -336,7 +336,7 @@ export default function App() {
         )}
 
         {/* INPUTS */}
-        <Card title="Implied Growth Rate Calculator (Gordon Growth Model)">
+        <Card title="Implied Growth Rate Calculator">
           <div className="flex flex-wrap items-end gap-x-6 gap-y-4">
             
             <div className="flex items-center gap-2">
